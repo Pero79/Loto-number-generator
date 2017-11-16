@@ -1,0 +1,10 @@
+body {
+    background: hsl(0, 100%, 95%);
+}
+p1 {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #ff4000;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Loto stevila</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <h1>Welcome to Loto Generator!</h1>
+    <h3>Press "generate" and get 8 random numbers from 1 to 39.</h3>
+    <a href="/"><button>Back</button></a>
+
+    <form action="/loto" method="post">
+      <button type="text" name="generate" value="yes">Generate</button>
+    </form>
+
+    <p1> {{ message1 }} </p1></br>
+    <p1> {{ result }} </p1></br>
+    <p1> {{ message2 }} </p1></br>
+</body>
+</html>
